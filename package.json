@@ -26,6 +26,7 @@
     "@angular/router": "~9.1.1",
     "@nguniversal/express-engine": "^9.1.0",
     "express": "^4.15.2",
+    "geotiff": "git+https://github.com/PacoDu/geotiff.js.git#fix-modern-frontend-import",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
