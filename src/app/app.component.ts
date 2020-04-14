@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import GeoTiff from 'geotiff';
+import GeoTIFF from 'geotiff';
 
 @Component({
   selector: 'app-root',
@@ -7,6 +7,6 @@ import GeoTiff from 'geotiff';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'geotiff demo';
-  pool = new GeoTiff.Pool();
+  title = 'GeoTIFF Angular Demo';
+  pool = new GeoTIFF.Pool();
 }
